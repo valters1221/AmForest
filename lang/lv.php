@@ -1,5 +1,5 @@
 <?php
-$lang = [
+return [
 
     'btn' => [
         'text1' => 'text1 BTN LV'

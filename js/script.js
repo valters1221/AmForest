@@ -15,28 +15,6 @@ function raf(time) {
 
 requestAnimationFrame(raf);
 
-//slider services
-// Initialize Top Swiper
-new Swiper(".top-services-swiper", {
-  spaceBetween: 24,
-  slidesPerView: "auto",
-  loop: true,
-  autoplay: {
-    delay: 10000,
-    disableOnInteraction: false,
-  },
-});
-// Initialize Bottom Swiper
-new Swiper(".bottom-services-swiper", {
-  spaceBetween: 24,
-  slidesPerView: "auto",
-  loop: true,
-  autoplay: {
-    delay: 8000,
-    disableOnInteraction: false,
-  },
-});
-
 document.addEventListener("DOMContentLoaded", function () {
   const images = document.getElementsByTagName("img");
   for (let img of images) {
