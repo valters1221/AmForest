@@ -3,18 +3,16 @@
         <div class="flex items-center justify-between">
             <!-- Logo -->
             <a href="/" id="logo" class="font-bold tracking-tighter transition-all duration-300 text-5xl text-black">
-                AM forest
+                AM
             </a>
 
             <!-- Desktop Menu Links -->
             <nav id="Links" class="hidden md:flex items-center space-x-8 font-medium">
-                <a href="/index" class="text-sm font-medium hover:text-primary"><?php echo __('navbar.link1'); ?></a>
-                <a href="/aboutUs" class="text-sm font-medium hover:text-primary"><?php echo __('navbar.link2'); ?></a>
+                <a href="/index" class="text-sm font-medium hover:text-primary">Sākums</a>
+                <a href="/aboutUs" class="text-sm font-medium hover:text-primary">Par Mums</a>
                 <a href="/Pakalpojumi"
-                    class="text-sm font-medium hover:text-primary"><?php echo __('navbar.link3'); ?></a>
-                <a href="/Perkam"
-                    class="text-sm font-medium hover:text-primary"><?php echo __('navbar.link4'); ?></a>
-                <a href="/contact" class="text-sm font-medium hover:text-primary"><?php echo __('navbar.link5'); ?></a>
+                    class="text-sm font-medium hover:text-primary">Pakalpojumi</a>
+                <a href="/contact" class="text-sm font-medium hover:text-primary">Kontakti</a>
             </nav>
 
             <!-- Call Us Button for Desktop -->
@@ -43,15 +41,13 @@
         </button>
         <!-- Mobile Menu Links -->
         <a href="/index"
-            class="text-lg font-medium text-gray-800 hover:text-primary"><?php echo __('navbar.link1'); ?></a>
+            class="text-lg font-medium text-gray-800 hover:text-primary">Sākums</a>
         <a href="/aboutUs"
-            class="text-lg font-medium text-gray-800 hover:text-primary"><?php echo __('navbar.link2'); ?></a>
+            class="text-lg font-medium text-gray-800 hover:text-primary">Par Mums</a>
         <a href="/Pakalpojumi"
-            class="text-lg font-medium text-gray-800 hover:text-primary"><?php echo __('navbar.link3'); ?></a>
-        <a href="/Perkam"
-            class="text-lg font-medium text-gray-800 hover:text-primary"><?php echo __('navbar.link4'); ?></a>
+            class="text-lg font-medium text-gray-800 hover:text-primary">Pakalpojumi</a>
         <a href="/contact"
-            class="text-lg font-medium text-gray-800 hover:text-primary"><?php echo __('navbar.link5'); ?></a>
+            class="text-lg font-medium text-gray-800 hover:text-primary">Kontakti</a>
         <!-- Call Us Button -->
         <button
             class="bg-primary text-white rounded-full px-6 py-2 text-sm font-medium hover:bg-opacity-80 transition duration-300">

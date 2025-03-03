@@ -1,91 +1,139 @@
-<section id="contact">
-    <div class="relative z-10 mt-4">
-        <div class="container max-w-7xl mx-auto py-12 px-4">
-            <div class="grid md:grid-cols-2 gap-8">              
-                            <form class="bg-[#154d3b] shadow-md rounded-lg px-8 pt-6 pb-8 mb-4">
-                                <div class="flex flex-wrap -mx-3 mb-4">
-                                    <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
-                                        <label class="block text-white text-sm font-bold mb-2" for="name">
-                                            <?php echo __('contact.text1'); ?>
-                                        </label>
-                                        <input class="shadow appearance-none border bg-[#0a3834] rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="<?php echo __('contact.text2'); ?>">
-                                    </div>
-                                    <div class="w-full md:w-1/2 px-3">
-                                        <label class="block text-white text-sm font-bold mb-2" for="lastname">
-                                            <?php echo __('contact.text3'); ?>
-                                        </label>
-                                        <input class="shadow appearance-none border bg-[#0a3834] rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="lastname" type="text" placeholder="<?php echo __('contact.text4'); ?>">
-                                    </div>
-                                </div>
-                                <div class="mb-4">
-                                    <label class="block text-white text-sm font-bold mb-2" for="email">
-                                        <?php echo __('contact.text5'); ?>
-                                    </label>
-                                    <input class="shadow appearance-none border bg-[#0a3834] rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="<?php echo __('contact.text6'); ?>">
-                                </div>
-                                <div class="mb-4">
-                                    <label class="block text-white text-sm font-bold mb-2" for="phone">
-                                        <?php echo __('contact.text7'); ?>
-                                    </label>
-                                    <input class="shadow appearance-none border bg-[#0a3834] rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="phone" type="tel" placeholder="<?php echo __('contact.text8'); ?>">
-                                </div>
-                                <div class="mb-6">
-                                    <label class="block text-white text-sm font-bold mb-2" for="message">
-                                        <?php echo __('contact.text9'); ?>
-                                    </label>
-                                    <textarea class="shadow appearance-none border bg-[#0a3834] rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="<?php echo __('contact.text10'); ?>" rows="4"></textarea>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <button class="bg-[#000000] hover:bg-[#202020] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-                                        <?php echo __('contact.text11'); ?>
-                                    </button>
-                                </div>
-                            </form>
+../<section class="flex items-center justify-center p-4">
+    <div class="container max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <!-- Left Section -->
+        <div class="text-white space-y-8 animation-group">
+            <h1 class="text-5xl text-black font-bold mb-4 text-center animate fast-[0.7] blur-in group-trigger">Get in touch</h1>
+            <p class="text-gray-400 mb-8 animate fast-[0.7] delays-[0.05] blur-in group-trigger">Lorem ipsum dolor sit
+                amet
+                consectetur adipiscing elit senectus rutrum pretium
+                nullam inte.</p>
 
-                <div class="bg-white border border-gray-200 rounded-lg shadow-sm">
-                    <div class="p-6">
-                        <h2 class="text-xl font-semibold text-green-900 mb-4"><?php echo __('contact.text13'); ?></h2>
-                        <div class="space-y-6">
-                            <div class="flex items-center space-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-900" viewBox="0 0 20 20" fill="currentColor">
-                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                                </svg>
-                                <span><?php echo __('contact.text14'); ?></span>
-                            </div>
-                            <div class="space-y-2">
-                                <div class="flex items-center space-x-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-900" viewBox="0 0 20 20" fill="currentColor">
-                                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                                    </svg>
-                                    <span><?php echo __('contact.text15'); ?></span>
-                                </div>
-                                <div class="flex items-center space-x-3 pl-8">
-                                    <span><?php echo __('contact.text16'); ?></span>
-                                </div>
-                            </div>
-                            <div class="flex items-start space-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-900 mt-1" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
-                                </svg>
-                                <div>
-                                    <p><?php echo __('contact.text17'); ?></p>
-                                </div>
-                            </div>
-                            <div class="pt-4 border-t border-gray-200">
-                                <h3 class="font-semibold mb-2 text-green-900"><?php echo __('contact.text18'); ?></h3>
-                                <p class="mt-2 mb-1 font-bold"><?php echo __('contact.text19'); ?></p>
-                                <p><?php echo __('contact.text20'); ?></p>
-                                <p><?php echo __('contact.text21'); ?></p>
-                                <p class="mt-2 mb-1 font-bold"><?php echo __('contact.text22'); ?></p>
-                                <p><?php echo __('contact.text23'); ?></p>
-                                <p class="mt-2 mb-1 font-bold"><?php echo __('contact.text24'); ?></p>
-                                <p><?php echo __('contact.text26'); ?></p>
-                                <p><?php echo __('contact.text27'); ?></p>
-                            </div>
-                        </div>
+            <div class="space-y-4 ">
+                <div class="flex items-center gap-4 animate fast-[1] reveal-up group-trigger">
+                    <div class="bg-green-light bg-opacity-30 p-2 rounded-lg">
+                        <i class="fas fa-phone text-black"></i>
+                    </div>
+                    <span class="text-black">(418) 547 - 0286</span>
+                </div>
+                <div class="flex items-center gap-4 animate fast-[1] delays-[0.05] reveal-up group-trigger">
+                    <div class="bg-green-light bg-opacity-30 p-2 rounded-lg">
+                        <i class="fas fa-envelope text-black"></i>
+                    </div>
+                    <span class="text-black">contact@darkx.com</span>
+                </div>
+            </div>
+
+            <div class="space-y-4 animate fast-[0.7] blur-in group-trigger">
+                <h3 class="text-lg font-semibold text-zinc-900">Follow us</h3>
+                <div class="flex gap-3">
+                    <a href="#" class="social-icon w-10 h-10 bg-green-light bg-opacity-30 rounded-lg flex items-center justify-center">
+                        <i class="fab fa-facebook-f text-black"></i>
+                    </a>
+                    <a href="#" class="social-icon w-10 h-10 bg-green-light bg-opacity-30 rounded-lg flex items-center justify-center">
+                        <i class="fab fa-instagram text-black"></i>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- Right Section - FAQ -->
+        <div class="bg-[#202020] p-8 rounded-lg mx-auto animate fast-[0.7] blur-in">
+
+            <h2 class="text-3xl font-bold text-white mb-6">FAQ?</h2>
+
+            <!-- FAQ sadaļa 1 -->
+            <div class="border-b border-gray-700">
+                <button class="faq-toggle w-full py-4 flex justify-between items-center text-left">
+                    <span class="text-lg font-medium text-white">Kādus mežsaimniecības pakalpojumus jūsu uzņēmums piedāvā?</span>
+                    <svg class="faq-icon w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer text-gray-300">
+                    <p>Mūsu pilna servisa mežsaimniecības uzņēmums specializējas četrās galvenajās jomās: koku ciršana, meža vērtēšana, kokmateriālu transportēšana un mežsaimniecības konsultācijas. Mēs piedāvājam pilna cikla pakalpojumus no sākotnējā novērtējuma un plānošanas līdz īstenošanai un turpmākai meža apsaimniekošanai, palīdzot zemes īpašniekiem maksimāli palielināt savu meža resursu vērtību, vienlaikus nodrošinot ilgtspējīgu praksi.</p>
+                </div>
+            </div>
+
+            <!-- FAQ sadaļa 2 -->
+            <div class="border-b border-gray-700">
+                <button class="faq-toggle w-full py-4 flex justify-between items-center text-left">
+                    <span class="text-lg font-medium text-white">Cik maksā koku izciršana vai meža novērtēšana?</span>
+                    <svg class="faq-icon w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer text-gray-300">
+                    <p>Pakalpojumu izmaksas atšķiras atkarībā no meža platības, reljefa sarežģītības, koku sugām un īpašām prasībām. Pamata meža novērtējumi parasti izmaksā no xxxx līdz xxxxx eiro, savukārt pilnīgas koku izciršanas operācijas tiek noteiktas atbilstoši platībai, apjomam un pieejamībai. Mēs sniedzam detalizētus piedāvājumus pēc sākotnējā īpašuma apsekojuma, kur novērtējam jūsu īpašumu un izprotam jūsu mežsaimniecības mērķus. Mēs piedāvājam elastīgus maksājumu variantus un varam pielāgot savus risinājumus jūsu meža apsaimniekošanas mērķiem un budžeta ierobežojumiem.</p>
+                </div>
+            </div>
+
+            <!-- FAQ sadaļa 3 -->
+            <div class="border-b border-gray-700">
+                <button class="faq-toggle w-full py-4 flex justify-between items-center text-left">
+                    <span class="text-lg font-medium text-white">Kādus transportēšanas pakalpojumus jūs nodrošināt un kā jūs garantējat kokmateriālu vērtību?</span>
+                    <svg class="faq-icon w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer text-gray-300">
+                    <p>Mūsu transporta pakalpojumi ietver baļķu pārvadāšanu, specializētu aprīkojumu sarežģītam reljefam, drošu kokmateriālu iekraušanu un koordinētu piegādi uz kokapstrādes rūpnīcām vai pārstrādes iekārtām. Mēs maksimāli palielinām kokmateriālu vērtību, izmantojot rūpīgas ciršanas metodes, precīzu šķirošanu un klasificēšanu, stratēģisku tirgus laika izvēli un attiecības ar vairākiem pircējiem. Katrs klients saņem detalizētu dokumentāciju par kokmateriālu apjomu, sugām un maksājumu reģistru, kā arī ikmēneša atskaites par meža apsaimniekošanas darbībām.</p>
+                </div>
+            </div>
+
+            <!-- FAQ sadaļa 4 -->
+            <div class="border-b border-gray-700">
+                <button class="faq-toggle w-full py-4 flex justify-between items-center text-left">
+                    <span class="text-lg font-medium text-white">Kāda veida mežsaimniecības konsultācijas jūs sniedzat?</span>
+                    <svg class="faq-icon w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer text-gray-300">
+                    <p>Mēs specializējamies plašā mežsaimniecības konsultāciju klāstā, tostarp ilgtspējīga meža apsaimniekošana, meža inventarizācija, kokmateriālu tirgus analīze, ciršanas plānošana, meža atjaunošana, slimību un kaitēkļu pārvaldība, subsīdiju un atbalsta programmu konsultācijas, kā arī ilgtermiņa meža apsaimniekošanas plānu izstrāde. Mūsu komanda analizē jūsu pašreizējo mežu stāvokli, identificē iespējas un potenciālos riskus, pēc tam izstrādā un ievieš pielāgotus risinājumus, kas palielina meža vērtību, nodrošina ilgtspējīgu attīstību un optimizē finansiālos ieguvumus.</p>
+                </div>
+            </div>
+        </div>
 </section>
+
+<style>
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, padding 0.3s ease;
+}
+
+.faq-answer.open {
+    max-height: 500px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.faq-icon {
+    transition: transform 0.3s ease;
+}
+
+.rotate-icon {
+    transform: rotate(180deg);
+}
+</style>
+
+
+<script>
+// Add click event to all FAQ toggles
+document.querySelectorAll('.faq-toggle').forEach(toggle => {
+    toggle.addEventListener('click', () => {
+        const answer = toggle.nextElementSibling;
+        const icon = toggle.querySelector('.faq-icon');
+
+        // Toggle the open class
+        answer.classList.toggle('open');
+
+        // Rotate the icon
+        icon.classList.toggle('rotate-icon');
+    });
+});
+</script>

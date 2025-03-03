@@ -2,7 +2,7 @@
 (function () {
   const background = document.getElementById("background");
   const circlegs = [];
-  const maxcirclegs = 10; // Maximum number of circles
+  const maxcirclegs = 6; // Maximum number of circles
   const colors = ["#47ff8d"]; // Light blue and dark blue colors
 
   function isOverlapping(newcircleg, existingcirclegs) {
@@ -43,7 +43,7 @@
     const y = Math.random() * window.innerHeight;
     const color = colors[Math.floor(Math.random() * colors.length)];
     const blur = Math.random() * 70 + 50;
-    const opacity = Math.random() * 0.4;
+    const opacity = Math.random() * 0.2;
 
     circleg.style.width = `${size}px`;
     circleg.style.height = `${size}px`;

@@ -1,4 +1,4 @@
-<footer class="bg-[#20312e] mt-6 z-50">
+<footer class="bg-[#587e5e] mt-6 z-50">
     <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
             <div class="sm:col-span-2">
@@ -6,7 +6,7 @@
                     <span class="ml-2 text-2xl font-bold tracking-wide text-white uppercase">AM forest</span>
                 </a>
                 <div class="mt-6 lg:max-w-sm">
-                    <p class="text-sm text-gray-400"><?php echo __('footer.text1'); ?></p>
+                    <p class="text-sm text-gray-100"><?php echo __('footer.text1'); ?></p>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
             <div>
                 <span class="text-base font-bold tracking-wide text-gray-300"><?php echo __('footer.text10'); ?></span>
                 <div class="flex items-center mt-1 space-x-3">
-                    <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
+                    <a href="/" class="text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400">
                         <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
                             <circle cx="15" cy="15" r="4"></circle>
                             <path
@@ -41,7 +41,7 @@
                             ></path>
                         </svg>
                     </a>
-                    <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
+                    <a href="/" class="text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400">
                         <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
                             <path
                                 d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
@@ -49,11 +49,11 @@
                         </svg>
                     </a>
                 </div>
-                <p class="mt-4 text-sm text-gray-500"><?php echo __('footer.text11'); ?></p>
+                <p class="mt-4 text-sm text-gray-400"><?php echo __('footer.text11'); ?></p>
             </div>
         </div>
         <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-            <p class="text-sm text-gray-600">© Copyright 2024 SIA AM forest. All rights reserved.</p>
+            <p class="text-sm text-gray-400">© Copyright 2024 SIA AM forest. All rights reserved.</p>
         </div>
     </div>
 </footer>

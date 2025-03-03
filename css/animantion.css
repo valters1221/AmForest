@@ -104,14 +104,6 @@
     transform: translateX(0);
   }
 }
-@keyframes smoothReveal {
-  from {
-    clip-path: inset(0 100% 0 0);
-  }
-  to {
-    clip-path: inset(0 0 0 0);
-  }
-}
 @keyframes blurGrow {
   from {
     opacity: 0;
@@ -124,14 +116,66 @@
     transform: scale(1);
   }
 }
+
+@keyframes revealLeft {
+  0% {
+    clip-path: inset(0 0 0 100%);
+    transform: translateX(10px);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    transform: translateX(0);
+  }
+}
+
+/* Left to Right Reveal */
+@keyframes revealRight {
+  0% {
+    clip-path: inset(0 100% 0 0);
+    transform: translateX(-10px);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    transform: translateX(0);
+  }
+}
+
+/* Bottom to Top Reveal */
+@keyframes revealUp {
+  0% {
+    clip-path: inset(100% 0 0 0);
+    transform: translateY(10px);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    transform: translateY(0);
+  }
+}
+
+/* Top to Bottom Reveal */
+@keyframes revealDown {
+  0% {
+    clip-path: inset(0 0 100% 0);
+    transform: translateY(-10px);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    transform: translateY(0);
+  }
+}
+
 .animate {
   opacity: 0;
   visibility: hidden;
+  --animation-duration: 0.7s; /* default duration if no fast-[X] class */
+  --animation-delay: 0s; /* default delay if no delays-[X] class */
+  animation-duration: var(--animation-duration);
+  animation-delay: var(--animation-delay);
 }
+
 .animate.in-viewport {
   visibility: visible;
   opacity: 1;
-  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-timing-function: ease-out;
 }
@@ -171,68 +215,28 @@
 .blur-grow.in-viewport {
   animation-name: blurGrow;
 }
-.text-reveal.in-viewport > * {
-  animation-name: smoothReveal;
+.reveal-right.in-viewport,
+.reveal-left.in-viewport,
+.reveal-up.in-viewport,
+.reveal-down.in-viewport {
+  will-change: clip-path, transform;
   animation-fill-mode: both;
-  animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 }
-.delays-1 {
-  animation-delay: 0.3s;
+
+/* Direction-specific classes */
+.reveal-right.in-viewport {
+  animation-name: revealRight;
 }
-.delays-2 {
-  animation-delay: 0.4s;
+
+.reveal-left.in-viewport {
+  animation-name: revealLeft;
 }
-.delays-3 {
-  animation-delay: 0.5s;
+
+.reveal-up.in-viewport {
+  animation-name: revealUp;
 }
-.delays-4 {
-  animation-delay: 0.6s;
-}
-.delays-5 {
-  animation-delay: 0.7s;
-}
-.delays-6 {
-  animation-delay: 0.8s;
-}
-.delays-7 {
-  animation-delay: 0.9s;
-}
-.delays-8 {
-  animation-delay: 1s;
-}
-.delays-9 {
-  animation-delay: 1.1s;
-}
-.delays-10 {
-  animation-delay: 1.2s;
-}
-.fast-1 {
-  animation-duration: 0.3s !important;
-}
-.fast-2 {
-  animation-duration: 0.6s !important;
-}
-.fast-3 {
-  animation-duration: 0.9s !important;
-}
-.fast-4 {
-  animation-duration: 1.2s !important;
-}
-.fast-5 {
-  animation-duration: 1.5s !important;
-}
-.fast-6 {
-  animation-duration: 1.8s !important;
-}
-.fast-7 {
-  animation-duration: 2.1s !important;
-}
-.fast-8 {
-  animation-duration: 2.4s !important;
-}
-.fast-9 {
-  animation-duration: 2.7s !important;
-}
-.fast-10 {
-  animation-duration: 3s !important;
+
+.reveal-down.in-viewport {
+  animation-name: revealDown;
 }

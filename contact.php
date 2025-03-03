@@ -15,14 +15,14 @@
 
     <section class="w-full flex justify-center mt-16">
         <form class=" w-full max-w-[700px] rounded-lg px-8 pt-6 pb-8 mb-4">
-            <h1 class="text-4xl font-semibold mb-5">Contact</h1>
+            <h1 class="text-4xl font-bold mb-5">Contact</h1>
             <div class="flex flex-wrap -mx-3 mb-4">
                 <div class="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                     <label class="block text-black text-sm font-bold mb-2" for="name">
                         <?php echo __('contact.text1'); ?>
                     </label>
                     <input
-                        class="shadow appearance-none border bg-[#dde9e8] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                        class="shadow appearance-none border bg-[#f7f7f7] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                         id="name" type="text" placeholder="<?php echo __('contact.text2'); ?>">
                 </div>
                 <div class="w-full md:w-1/2 px-3">
@@ -30,7 +30,7 @@
                         <?php echo __('contact.text3'); ?>
                     </label>
                     <input
-                        class="shadow appearance-none border bg-[#dde9e8] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                        class="shadow appearance-none border bg-[#f7f7f7] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                         id="lastname" type="text" placeholder="<?php echo __('contact.text4'); ?>">
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     <?php echo __('contact.text5'); ?>
                 </label>
                 <input
-                    class="shadow appearance-none border bg-[#dde9e8] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                    class="shadow appearance-none border bg-[#f7f7f7] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                     id="email" type="email" placeholder="<?php echo __('contact.text6'); ?>">
             </div>
             <div class="mb-4">
@@ -47,7 +47,7 @@
                     <?php echo __('contact.text7'); ?>
                 </label>
                 <input
-                    class="shadow appearance-none border bg-[#dde9e8] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                    class="shadow appearance-none border bg-[#f7f7f7] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                     id="phone" type="tel" placeholder="<?php echo __('contact.text8'); ?>">
             </div>
             <div class="mb-6">
@@ -55,7 +55,7 @@
                     <?php echo __('contact.text9'); ?>
                 </label>
                 <textarea
-                    class="shadow appearance-none border bg-[#dde9e8] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
+                    class="shadow appearance-none border bg-[#f7f7f7] rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
                     id="message" placeholder="<?php echo __('contact.text10'); ?>" rows="4"></textarea>
             </div>
             <div class="flex items-center justify-between">

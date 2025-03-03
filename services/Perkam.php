@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include 'include/meta.php'?>
+    <?php include '../include/meta.php'?>
 </head>
 
 <body>
-    <?php include 'components/header.php' ?>
+    <?php include '../components/header.php' ?>
 
     <section>
         <div class="relative h-[600px] flex flex-col justify-between">
@@ -75,14 +75,14 @@
         </div>
     </section>
 
-    <?php include 'components/steps.php'?>
+    <?php include '../components/steps.php'?>
 
 
 
 
 
 
-    <?php include 'components/contact_form.php' ?>
+    <?php include '../components/contact_form.php' ?>
     <?php include '../components/footer.php' ?>
     <script src="/js/bg.js"></script>
     <script src="/js/animantion.js"></script>
