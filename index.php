@@ -14,11 +14,13 @@
     <?php include 'components/header.php' ?>
     <div id="background" class=" -z-50"></div>
 
-    <div class="forest-bg h-[600px] sm:h-[90lvh] flex flex-col justify-center items-center p-4 text-white rounded-b-3xl">
-        <div class="container mx-auto flex  max-w-[1300px] md:p-8">
+    <div
+        class="forest-bg h-[600px] sm:h-[90lvh] flex flex-col justify-center items-center p-4  text-white rounded-b-3xl">
+        <div class="container mx-auto flex  max-w-[1300px] md:p-8 ">
             <div class="max-w-xl">
                 <h1 class="text-5xl md:text-7xl font-black mb-6 animate fast-[1] reveal-down">AM forest</h1>
-                <p class="text-base opacity-90 mb-2 animate blur-in">Lorem ipsum, dolor sit amet consectetur adipisicing elit dolor sit amet Commodi sunt totam laboriosam aliquam.</p>
+                <p class="text-base opacity-90 mb-2 animate blur-in">Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit dolor sit amet Commodi sunt totam laboriosam aliquam.</p>
 
                 <div class="divider w-full my-8"></div>
 
@@ -57,7 +59,7 @@
                                     </svg>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <p class="text-sm opacity-80 max-w-md">dolor sit amet consectetur adipisicing elit. Commodi sunt
                             totam laboriosam aliquam corporis cumque cum voluptates vitae architecto cum.</p>
@@ -67,118 +69,140 @@
         </div>
     </div>
 
-<section class="my-20">
-    <div class="container mx-auto px-4 max-w-[1200px]">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <!-- Service Card 1: Transports -->
-            <div class="bg-zinc-100 rounded-md shadow-lg p-6 sm:p-10 animate blur-grow">
-                <div class="flex mb-4">
-                    <div class="w-12 h-12 bg-[#99FF94] bg-opacity-30 rounded-md flex items-center justify-center mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="1" y="3" width="15" height="13"></rect>
-                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
-                            <circle cx="5.5" cy="18.5" r="2.5"></circle>
-                            <circle cx="18.5" cy="18.5" r="2.5"></circle>
-                        </svg>
+    <section class="mt-20 sm:mb-20">
+        <div class="container mx-auto px-4 max-w-[1200px]">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+                <!-- Service Card 1: Transports -->
+                <div class="bg-zinc-100 rounded-md shadow-lg p-6 sm:p-10 animate blur-grow">
+                    <div class="flex mb-4">
+                        <div
+                            class="w-12 h-12 bg-[#99FF94] bg-opacity-30 rounded-md flex items-center justify-center mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="1" y="3" width="15" height="13"></rect>
+                                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold ">Transports</h3>
                     </div>
-                    <h3 class="text-lg font-bold ">Transports</h3>
+                    <p class="text-gray-700 text-base">
+                        dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
+                        corporis cumque eum voluptates vitae architecto cum
+                    </p>
+                    <a href="#" class="text-black font-medium text-sm flex items-center hover:underline mt-2">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="ml-1">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
                 </div>
-                <p class="text-gray-700 text-base">
-                    dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
-                    corporis cumque eum voluptates vitae architecto cum
-                </p>
-                <a href="#" class="text-black font-medium text-sm flex items-center hover:underline mt-2">
-                  Learn more
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
-                    <path d="M5 12h14"></path>
-                    <path d="m12 5 7 7-7 7"></path>
-                  </svg>
-                </a>
-            </div>
 
-            <!-- Service Card 2: Cirsmas sagatavoana -->
-            <div class="bg-zinc-100 rounded-md shadow-lg p-6 sm:p-10 animate delays-[0.1] blur-grow">
-                <div class="flex mb-4">
-                    <div class="w-12 h-12 bg-[#99FF94] bg-opacity-30 rounded-md flex items-center justify-center mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="m14 12-8.5 8.5a2.12 2.12 0 1 1-3-3L11 9"></path>
-                            <path d="M15 13 9 7l4-4 6 6h3a8 8 0 0 1-7 7z"></path>
-                        </svg>
+                <!-- Service Card 2: Cirsmas sagatavoana -->
+                <div class="bg-zinc-100 rounded-md shadow-lg p-6 sm:p-10 animate delays-[0.1] blur-grow">
+                    <div class="flex mb-4">
+                        <div
+                            class="w-12 h-12 bg-[#99FF94] bg-opacity-30 rounded-md flex items-center justify-center mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="m14 12-8.5 8.5a2.12 2.12 0 1 1-3-3L11 9"></path>
+                                <path d="M15 13 9 7l4-4 6 6h3a8 8 0 0 1-7 7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold mt-2">Cirsmas sagatavoana</h3>
                     </div>
-                    <h3 class="text-lg font-bold mt-2">Cirsmas sagatavoana</h3>
+                    <p class="text-gray-700 text-base mt-2">
+                        dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
+                        corporis cumque eum voluptates vitae architecto cum
+                    </p>
+                    <a href="#" class="text-black font-medium text-sm flex items-center hover:underline mt-2">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="ml-1">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
                 </div>
-                <p class="text-gray-700 text-base mt-2">
-                    dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
-                    corporis cumque eum voluptates vitae architecto cum
-                </p>
-                <a href="#" class="text-black font-medium text-sm flex items-center hover:underline mt-2">
-                  Learn more
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
-                    <path d="M5 12h14"></path>
-                    <path d="m12 5 7 7-7 7"></path>
-                  </svg>
-                </a>
-            </div>
 
-            <!-- Service Card 3: Pirkt mezus -->
-            <div class="bg-zinc-100 rounded-md shadow-lg p-6 sm:p-10 animate delays-[0.2] blur-grow">
-                <div class="flex mb-4">
-                    <div class="w-12 h-12 bg-[#99FF94] bg-opacity-30 rounded-md flex items-center justify-center mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                        </svg>
+                <!-- Service Card 3: Pirkt mezus -->
+                <div class="bg-zinc-100 rounded-md shadow-lg p-6 sm:p-10 animate delays-[0.2] blur-grow">
+                    <div class="flex mb-4">
+                        <div
+                            class="w-12 h-12 bg-[#99FF94] bg-opacity-30 rounded-md flex items-center justify-center mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold mt-2.5">Pirkt mezus</h3>
                     </div>
-                    <h3 class="text-lg font-bold mt-2.5">Pirkt mezus</h3>
+                    <p class="text-gray-700 text-base">
+                        dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
+                        corporis cumque eum voluptates vitae architecto cum
+                    </p>
+                    <a href="#" class="text-black font-medium text-sm flex items-center hover:underline mt-2">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="ml-1">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
                 </div>
-                <p class="text-gray-700 text-base">
-                    dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
-                    corporis cumque eum voluptates vitae architecto cum
-                </p>
-                <a href="#" class="text-black font-medium text-sm flex items-center hover:underline mt-2">
-                  Learn more
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
-                    <path d="M5 12h14"></path>
-                    <path d="m12 5 7 7-7 7"></path>
-                  </svg>
-                </a>
-            </div>
 
-            <!-- Service Card 4: Meza konsultacija -->
-            <div class="bg-zinc-100 rounded-md shadow-lg p-6 sm:p-10 animate delays-[0.3] blur-grow">
-                <div class="flex mb-4">
-                    <div class="w-12 h-12 bg-[#99FF94] bg-opacity-30 rounded-md flex items-center justify-center mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <path d="M12 16v-4"></path>
-                            <path d="M12 8h.01"></path>
-                        </svg>
+                <!-- Service Card 4: Meza konsultacija -->
+                <div class="bg-zinc-100 rounded-md shadow-lg p-6 sm:p-10 animate delays-[0.3] blur-grow">
+                    <div class="flex mb-4">
+                        <div
+                            class="w-12 h-12 bg-[#99FF94] bg-opacity-30 rounded-md flex items-center justify-center mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 16v-4"></path>
+                                <path d="M12 8h.01"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold mt-2.5">Meza konsultacija</h3>
                     </div>
-                    <h3 class="text-lg font-bold mt-2.5">Meza konsultacija</h3>
+                    <p class="text-gray-700 text-base">
+                        dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
+                        corporis cumque eum voluptates vitae architecto cum
+                    </p>
+                    <a href="#" class="text-black font-medium text-sm flex items-center hover:underline mt-2">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="ml-1">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
                 </div>
-                <p class="text-gray-700 text-base">
-                    dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
-                    corporis cumque eum voluptates vitae architecto cum
-                </p>
-                <a href="#" class="text-black font-medium text-sm flex items-center hover:underline mt-2">
-                  Learn more
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
-                    <path d="M5 12h14"></path>
-                    <path d="m12 5 7 7-7 7"></path>
-                  </svg>
-                </a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-    <section class="my-20">
-        <div class="container max-w-[1300px] mx-auto flex flex-col-reverse lg:flex-row space-y-8 lg:space-y-0">
+    <section class="mt-10 mb-20 ">
+        <div class="container max-w-[1300px] mx-auto flex flex-col-reverse lg:flex-row space-y-3 lg:space-y-0">
             <div class="relative w-full lg:w-1/2 flex justify-center items-center">
                 <!-- Container for both circle and image with proper positioning -->
                 <div class="relative w-full flex justify-center items-center">
                     <!-- Green circle background -->
-                    <div class="absolute w-[70%] aspect-square bg-green-solid rounded-full animate delays-[0.3] blur-in"></div>
+                    <div
+                        class="absolute w-[70%] aspect-square bg-green-solid rounded-full animate delays-[0.3] blur-in">
+                    </div>
                     <!-- Tree stump image centered over the circle -->
                     <img src="/images/tree-stump.png" alt="tree stump" class="relative z-10 w-[90%]">
                 </div>
@@ -187,7 +211,9 @@
                 <div class="my-14 mb-16 sm:my-0 sm:mb-0 w-full">
                     <!-- Green tag at the top -->
                     <div class="flex justify-center mb-2">
-                        <div class="bg-green-light bg-opacity-30 text-black px-4 py-1 rounded-full text-sm animate blur-in">Par mums</div>
+                        <div
+                            class="bg-green-light bg-opacity-30 text-black px-4 py-1 rounded-full text-sm animate blur-in">
+                            Par mums</div>
                     </div>
 
                     <!-- Main heading -->
@@ -261,7 +287,7 @@
     </section>
 
 
-    
+
     <?php include 'components/contact_form.php' ?>
     <?php include 'components/footer.php' ?>
 
