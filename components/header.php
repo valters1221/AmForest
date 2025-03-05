@@ -10,14 +10,13 @@
             <nav id="Links" class="hidden md:flex items-center space-x-8 text-white">
                 <a href="/index" class="text-sm font-medium hover:text-primary">Sākums</a>
                 <a href="/aboutUs" class="text-sm font-medium hover:text-primary">Par Mums</a>
-                <a href="/Pakalpojumi"
-                    class="text-sm font-medium hover:text-primary">Pakalpojumi</a>
+                <a href="/Pakalpojumi" class="text-sm font-medium hover:text-primary">Pakalpojumi</a>
                 <a href="/contact" class="text-sm font-medium hover:text-primary">Kontakti</a>
             </nav>
 
             <!-- Call Us Button for Desktop -->
             <button
-                class="hidden md:block  hover:bg-primary text-primary text-white hover:text-black hover:bg-white bg-[#153a34] border border-primary hover:border-transparent rounded-full px-4 py-2 text-sm font-medium transition-colors duration-300">
+                class="hidden md:block  hover:bg-primary text-primary text-white hover:text-black hover:bg-white bg-green-solid rounded-full px-4 py-2 text-sm font-medium transition-colors duration-300">
                 <?php echo __('navbar.btn'); ?>
             </button>
 
@@ -40,14 +39,10 @@
             &times;
         </button>
         <!-- Mobile Menu Links -->
-        <a href="/index"
-            class="text-lg font-medium text-gray-800 hover:text-primary">Sākums</a>
-        <a href="/aboutUs"
-            class="text-lg font-medium text-gray-800 hover:text-primary">Par Mums</a>
-        <a href="/Pakalpojumi"
-            class="text-lg font-medium text-gray-800 hover:text-primary">Pakalpojumi</a>
-        <a href="/contact"
-            class="text-lg font-medium text-gray-800 hover:text-primary">Kontakti</a>
+        <a href="/index" class="text-lg font-medium text-gray-800 hover:text-primary">Sākums</a>
+        <a href="/aboutUs" class="text-lg font-medium text-gray-800 hover:text-primary">Par Mums</a>
+        <a href="/Pakalpojumi" class="text-lg font-medium text-gray-800 hover:text-primary">Pakalpojumi</a>
+        <a href="/contact" class="text-lg font-medium text-gray-800 hover:text-primary">Kontakti</a>
         <!-- Call Us Button -->
         <button
             class="bg-primary text-white rounded-full px-6 py-2 text-sm font-medium hover:bg-opacity-80 transition duration-300">

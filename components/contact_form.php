@@ -40,7 +40,7 @@
         </div>
 
         <!-- Right Section - FAQ -->
-        <div class="bg-[#202020] p-8 rounded-lg mx-auto animate fast-[0.7] blur-in">
+        <div class="bg-[#587e5e] p-8 rounded-lg mx-auto animate fast-[0.7] blur-in">
 
             <h2 class="text-3xl font-bold text-white mb-6">FAQ?</h2>
 

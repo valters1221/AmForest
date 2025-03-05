@@ -23,7 +23,7 @@
                         <?php echo __('home.text25'); ?>
                     </p>
                     <button
-                        class="bg-[#9efa82] w-full sm:w-auto px-6 sm:px-8 lg:px-10 py-3 sm:py-3 lg:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#8ee375] transition-colors transform hover:scale-105 duration-200 shadow-lg">
+                        class="bg-green-solid text-white w-full sm:w-auto px-6 sm:px-8 lg:px-10 py-3 sm:py-3 lg:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#8ee375] transition-colors transform hover:scale-105 duration-200 shadow-lg">
                         <?php echo __('home.text26'); ?>
                     </button>
                 </div>
@@ -71,7 +71,7 @@
                         <?php echo __('home.text30'); ?>
                     </p>
                     <button
-                        class="bg-[#9efa82] w-full sm:w-auto px-6 sm:px-8 lg:px-10 py-3 sm:py-3 lg:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#8ee375] transition-colors transform hover:scale-105 duration-200 shadow-lg">
+                        class="bg-green-solid text-white w-full sm:w-auto px-6 sm:px-8 lg:px-10 py-3 sm:py-3 lg:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#8ee375] transition-colors transform hover:scale-105 duration-200 shadow-lg">
                         <?php echo __('home.text31'); ?>
                     </button>
                 </div>
