@@ -15,8 +15,15 @@
     <div id="background" class=" -z-50"></div>
 
     <div
-        class="forest-bg h-[600px] sm:h-[90lvh] flex flex-col justify-center items-center p-4  text-white rounded-b-3xl">
-        <div class="container mx-auto flex  max-w-[1300px] md:p-8 ">
+        class="h-[600px] sm:h-[90lvh] flex flex-col justify-center items-center p-4 text-white rounded-b-3xl relative overflow-hidden">
+        <!-- Video Background -->
+        <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover -z-10">
+            <source src="/images/vid-bg-amforest.mp4" type="video/mp4">
+        </video>
+        <!-- Dark overlay -->
+        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-25 -z-10"></div>
+
+        <div class="container mx-auto flex max-w-[1300px] md:p-8 relative">
             <div class="max-w-xl">
                 <h1 class="text-5xl md:text-7xl font-black mb-6 animate fast-[1] reveal-down">AM forest</h1>
                 <p class="text-base opacity-90 mb-2 animate blur-in">Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -30,7 +37,7 @@
                         <div class="flex flex-col md:flex-row md:items-center">
                             <div class="flex flex-row items-center pb-2 md:pb-0">
                                 <div class="block md:hidden w-8 h-8 rounded-full bg-gray-300 mr-4"></div>
-                                <h3 class="font-medium mr-2">Anna Mucinieć</h3>
+                                <h3 class="font-bold mr-2 text-lg">Anna Strelniece</h3>
                                 <div class="flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-400"
                                         viewBox="0 0 20 20" fill="currentColor">
@@ -61,7 +68,7 @@
                             </div>
 
                         </div>
-                        <p class="text-sm opacity-80 max-w-md">dolor sit amet consectetur adipisicing elit. Commodi sunt
+                        <p class="text-base max-w-md">dolor sit amet consectetur adipisicing elit. Commodi sunt
                             totam laboriosam aliquam corporis cumque cum voluptates vitae architecto cum.</p>
                     </div>
                 </div>
@@ -258,9 +265,11 @@
         <div class="container mx-auto flex flex-col lg:flex-row space-y-8 lg:space-y-0 ">
             <div class="w-full lg:w-1/2 overflow-hidden flex justify-center items-center animate blur-in-down fast-3">
                 <div class="my-14 mb-16  sm:my-0 sm:mb-0">
-                    <h1 class=" font-bold text-center text-5xl mb-5"><?php echo __('home.text36'); ?></h1>
+                    <h1 class=" font-bold text-center text-5xl mb-5">Lorem ipsum dolor sit amet</h1>
                     <div class="flex justify-center items-center">
-                        <p class=" text-center max-w-[90%]"><?php echo __('home.text37'); ?></p>
+                        <p class=" text-center max-w-[90%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris.</p>
                     </div>
                 </div>
             </div>
@@ -277,9 +286,11 @@
             </div>
             <div class="w-full lg:w-1/2 overflow-hidden flex justify-center items-center animate blur-in-down fast-3">
                 <div class="my-14 mb-16  sm:my-0 sm:mb-0">
-                    <h1 class=" font-bold text-center text-5xl mb-5"><?php echo __('home.text38'); ?></h1>
+                    <h1 class=" font-bold text-center text-5xl mb-5">Consectetur adipiscing elit</h1>
                     <div class="flex justify-center items-center">
-                        <p class=" text-center max-w-[90%]"><?php echo __('home.text39'); ?></p>
+                        <p class=" text-center max-w-[90%]">Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit.</p>
                     </div>
                 </div>
             </div>
@@ -297,7 +308,8 @@
     <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
     <script src="/js/script.js"></script>
     <script>
-    const quote = `"<?php echo __('home.text1'); ?>"`;
+    const quote =
+        `"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."`;
     const typingSpeed = 50; // milliseconds per character
     const typingElement = document.getElementById('typing-quote');
     let charIndex = 0;

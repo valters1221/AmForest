@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-green-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 255 148 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-solid {
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 182 136 / var(--tw-bg-opacity, 1));
+}
+
 .forest-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url("/images/forest-bg.jpg");

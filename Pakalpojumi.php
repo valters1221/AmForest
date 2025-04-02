@@ -18,10 +18,10 @@
             class="container w-full max-w-[1200px] h-[500px]  flex flex-col lg:flex-row space-y-8 lg:space-y-0 mx-auto ">
             <div class=" w-full h-full  lg:w-1/2 flex justify-center items-center h">
                 <div class="w-full p-4 sm:p-0">
-                    <h1 class=" text-4xl sm:text-6xl w-full font-medium text-white"><?php echo __('services.text1'); ?>
+                    <h1 class=" text-4xl sm:text-5xl font-bold w-full font-medium text-white">Mūsu pakalpojumi
                     </h1>
-                    <p class=" text-xl sm:text-2xl w-[90%] sm:w-full text-zinc-200 mt-3">
-                        <?php echo __('services.text2'); ?></p>
+                    <p class=" text-base sm:text-sm w-[90%] sm:w-full text-zinc-100 mt-3">
+                        piedāvājam dažādus pakalpojumus, lai jūsu meža process būtu ērts un efektīvs</p>
                 </div>
             </div>
         </div>
@@ -159,12 +159,12 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="M12 16v-4"></path>
-                                <path d="M12 8h.01"></path>
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
                             </svg>
                         </div>
-                        <h3 class="text-lg font-bold mt-2.5">Meza konsultacija</h3>
+                        <h3 class="text-lg font-bold mt-2.5">Meža uzskopšana</h3>
                     </div>
                     <p class="text-gray-700 text-base">
                         dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam

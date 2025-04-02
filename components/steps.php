@@ -18,13 +18,14 @@
                         class="bg-black text-white rounded-full w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 flex items-center justify-center text-2xl sm:text-3xl lg:text-4xl font-bold">
                         01
                     </div>
-                    <h2 class="text-2xl sm:text-2xl lg:text-3xl font-bold"><?php echo __('home.text'); ?></h2>
+                    <h2 class="text-2xl sm:text-2xl lg:text-3xl font-bold">Initial Consultation</h2>
                     <p class="text-center text-base sm:text-lg lg:text-xl leading-relaxed">
-                        <?php echo __('home.text25'); ?>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
                     </p>
                     <button
                         class="bg-green-solid text-white w-full sm:w-auto px-6 sm:px-8 lg:px-10 py-3 sm:py-3 lg:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#8ee375] transition-colors transform hover:scale-105 duration-200 shadow-lg">
-                        <?php echo __('home.text26'); ?>
+                        Get Started
                     </button>
                 </div>
             </div>
@@ -44,9 +45,10 @@
                         class="bg-black text-white rounded-full w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 flex items-center justify-center text-2xl sm:text-3xl lg:text-4xl font-bold">
                         02
                     </div>
-                    <h2 class="text-2xl sm:text-2xl lg:text-3xl font-bold"><?php echo __('home.text27'); ?></h2>
+                    <h2 class="text-2xl sm:text-2xl lg:text-3xl font-bold">Planning Phase</h2>
                     <p class="text-center text-base sm:text-lg lg:text-xl leading-relaxed">
-                        <?php echo __('home.text28'); ?>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
                     </p>
                 </div>
             </div>
@@ -66,13 +68,14 @@
                         class="bg-black text-white rounded-full w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 flex items-center justify-center text-2xl sm:text-3xl lg:text-4xl font-bold">
                         03
                     </div>
-                    <h2 class="text-2xl sm:text-2xl lg:text-3xl font-bold"><?php echo __('home.text29'); ?></h2>
+                    <h2 class="text-2xl sm:text-2xl lg:text-3xl font-bold">Implementation</h2>
                     <p class="text-center text-base sm:text-lg lg:text-xl leading-relaxed">
-                        <?php echo __('home.text30'); ?>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
                     </p>
                     <button
                         class="bg-green-solid text-white w-full sm:w-auto px-6 sm:px-8 lg:px-10 py-3 sm:py-3 lg:py-4 rounded-full text-base sm:text-lg font-semibold hover:bg-[#8ee375] transition-colors transform hover:scale-105 duration-200 shadow-lg">
-                        <?php echo __('home.text31'); ?>
+                        Learn More
                     </button>
                 </div>
             </div>

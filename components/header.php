@@ -3,11 +3,12 @@
         <div class="flex items-center justify-between">
             <!-- Logo -->
             <a href="/" id="logo" class="font-bold tracking-tighter transition-all duration-300 text-5xl text-white">
-                AM
+                <img src="/images/logo.png" alt="AM forest logo"
+                    class="h-14 w-auto transition-all duration-300 ease-in-out">
             </a>
 
             <!-- Desktop Menu Links -->
-            <nav id="Links" class="hidden md:flex items-center space-x-8 text-white">
+            <nav id="Links" class="hidden md:flex items-center space-x-8 font-medium text-white">
                 <a href="/index" class="text-sm font-medium hover:text-primary">Sākums</a>
                 <a href="/aboutUs" class="text-sm font-medium hover:text-primary">Par Mums</a>
                 <a href="/Pakalpojumi" class="text-sm font-medium hover:text-primary">Pakalpojumi</a>
@@ -16,13 +17,13 @@
 
             <!-- Call Us Button for Desktop -->
             <button
-                class="hidden md:block  hover:bg-primary text-primary text-white hover:text-black hover:bg-white bg-green-solid rounded-full px-4 py-2 text-sm font-medium transition-colors duration-300">
-                <?php echo __('navbar.btn'); ?>
+                class="hidden md:block  hover:bg-primary text-primary text-white hover:text-black hover:bg-white bg-green-solid  rounded-full px-4 py-2 text-sm font-medium transition-colors duration-300">
+                Zvani mums
             </button>
 
             <!-- Mobile Menu Toggle Button -->
             <button id="menuToggle"
-                class="md:hidden px-3 py-2 rounded-md bg-white text-black font-bold text-2xl focus:outline-none">
+                class="md:hidden text-black px-3 py-2 rounded-md bg-white font-bold text-2xl focus:outline-none">
                 &#9776;
                 <!-- Hamburger Icon -->
             </button>
@@ -35,7 +36,7 @@
     class="fixed top-0 right-0 w-3/4 h-full bg-white shadow-lg transform translate-x-full z-50 md:hidden">
     <div class="flex flex-col items-start p-6 space-y-6">
         <!-- Close Button -->
-        <button id="closeMenu" class="self-end text-3xl font-bold bg-white text-gray-700 focus:outline-none">
+        <button id="closeMenu" class="self-end text-3xl font-bold bg-white text-red-500 focus:outline-none">
             &times;
         </button>
         <!-- Mobile Menu Links -->
@@ -45,8 +46,8 @@
         <a href="/contact" class="text-lg font-medium text-gray-800 hover:text-primary">Kontakti</a>
         <!-- Call Us Button -->
         <button
-            class="bg-primary text-white rounded-full px-6 py-2 text-sm font-medium hover:bg-opacity-80 transition duration-300">
-            <?php echo __('navbar.btn'); ?>
+            class="bg-primary text-black rounded-full px-6 py-2 text-sm font-medium hover:bg-opacity-80 transition duration-300">
+            Zvani mums
         </button>
     </div>
 </div>
@@ -140,16 +141,15 @@ function handleScroll() {
     if (window.scrollY > 50) {
         header.classList.add('py-2', 'bg-white/50', 'backdrop-blur-md');
         header.classList.remove('py-4');
-        logo.classList.remove('text-5xl');
-        logo.classList.add('text-3xl', 'text-black');
-        logo.classList.remove('text-white');
+        logo.querySelector('img').classList.remove('h-14');
+        logo.querySelector('img').classList.add('h-10');
         Links.classList.add('text-black');
         Links.classList.remove('text-white');
     } else {
         header.classList.remove('py-2', 'bg-white/50', 'backdrop-blur-md');
         header.classList.add('py-4');
-        logo.classList.add('text-5xl', 'text-white');
-        logo.classList.remove('text-3xl', 'text-black');
+        logo.querySelector('img').classList.remove('h-10');
+        logo.querySelector('img').classList.add('h-14');
         Links.classList.add('text-white');
         Links.classList.remove('text-black');
     }
