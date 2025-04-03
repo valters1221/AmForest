@@ -50,7 +50,7 @@
                         dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
                         corporis cumque eum voluptates vitae architecto cum
                     </p>
-                    <a href="services/perkam.php"
+                    <a href="services/Perkam.php"
                         class="text-black font-medium text-sm flex items-center hover:underline mt-2">
                         Learn more
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -80,7 +80,7 @@
                         dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
                         corporis cumque eum voluptates vitae architecto cum
                     </p>
-                    <a href="services/perkam.php"
+                    <a href="services/Perkam.php"
                         class="text-black font-medium text-sm flex items-center hover:underline mt-2">
                         Learn more
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -110,7 +110,7 @@
                         dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
                         corporis cumque eum voluptates vitae architecto cum
                     </p>
-                    <a href="services/perkam.php"
+                    <a href="services/Perkam.php"
                         class="text-black font-medium text-sm flex items-center hover:underline mt-2">
                         Learn more
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -141,7 +141,7 @@
                         dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
                         corporis cumque eum voluptates vitae architecto cum
                     </p>
-                    <a href="services/perkam.php"
+                    <a href="services/Perkam.php"
                         class="text-black font-medium text-sm flex items-center hover:underline mt-2">
                         Learn more
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -170,7 +170,7 @@
                         dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
                         corporis cumque eum voluptates vitae architecto cum
                     </p>
-                    <a href="services/perkam.php"
+                    <a href="services/Perkam.php"
                         class="text-black font-medium text-sm flex items-center hover:underline mt-2">
                         Learn more
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
@@ -199,7 +199,7 @@
                         dolor sit amet consectetur adipisicing elit. Commodi sunt totam laboriosam aliquam
                         corporis cumque eum voluptates vitae architecto cum
                     </p>
-                    <a href="services/perkam.php"
+                    <a href="services/Perkam.php"
                         class="text-black font-medium text-sm flex items-center hover:underline mt-2">
                         Learn more
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"

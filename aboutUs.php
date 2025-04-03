@@ -24,7 +24,7 @@
                 <div class="mb-16  sm:my-0 sm:mb-0">
                     <h1 class=" font-bold text-center text-5xl mb-5">Par Mums</h1>
                     <div class="flex justify-center items-center">
-                        <p class=" text-center max-w-[90%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                        <p class=" text-center mx-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto ipsum excepturi tenetur
                             ab! Voluptates quibusdam doloribus numquam, sit impedit velit consectetur dignissimos soluta
                             corrupti sed assumenda laborum earum tempore dolorem. eveniet, culpa mollitia voluptatem
@@ -45,7 +45,7 @@
                 <div class="py-8 lg:py-16 px-4 animate blur-in-down fast-3">
                     <h1 class="font-bold text-center text-4xl lg:text-5xl mb-4">ko mes piedavajam</h1>
                     <div class="flex justify-center items-center">
-                        <p class="text-center max-w-[90%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        <p class="text-center mx-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Saepe enim minima assumenda voluptas quos nisi velit sit adipisci, similique deleniti est
                             laborum eum sequi, repellat, modi blanditiis cumque nesciunt tempore autem voluptates quia!
                             Soluta ipsa dignissimos quo eligendi enim blanditiis.</p>
